@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Resturant of chines food</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+  </head>
+<body>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="index.html" class="pull-left visible-md visible-lg">
+            <div id="logo-img"></div>
+          </a>
+
+          <div class="navbar-brand">
+            <a href="index.html"><h1>Resturan Name Draft (Chines Food) </h1></a>
+            <p>
+              <img src="images/star-k-logo.png" alt="certification">
+              <span> Certified</span>
+            </p>
+          </div>
+
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li>
+              <a href="menu-categories.html">
+                <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu</a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About</a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Awards</a>
+            </li>
+            <li id="phone" class="hidden-xs">
+              <a href="tel:000-000-00000">
+                <span>000-000-00000</span></a><div>* Deliverey Num</div>
+            </li>
+          </ul><!-- #nav-list -->
+        </div>
+      </div>
+    </nav><!-- #header-nav -->
+  </header>
+
+  <div id="call-btn" class="visible-xs">
+    <a class="btn" href="tel:410-602-5008">
+    <span class="glyphicon glyphicon-earphone"></span>
+    000-000-00000
+    </a>
+  </div>
+  <div id="xs-deliver" class="text-center visible-xs">* We Deliver</div>
+
+  <div id="main-content" class="container">
+    <div class="jumbotron">
+      <img src="images/jumbotron_768.jpg" alt="Picture of restaurant" class="img-responsive visible-xs">
+    </div>
+
+    <div id="home-tiles" class="row">
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <a href="menu-categories.html"><div id="menu-tile"><span>menu</span></div></a>
+      </div>
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <a href="single-category.html"><div id="specials-tile"><span>specials</span></div></a>
+      </div>
+      <div class="col-md-4 col-sm-12 col-xs-12">
+        <a href="https://goo.gl/maps/6yWX39PR3JxFdk5UA" target="_blank">
+          <div id="map-tile">
+            <iframe src="https://goo.gl/maps/6yWX39PR3JxFdk5UA" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <span>map</span>
+          </div>
+        </a>
+      </div>
+    </div><!-- End of #home-tiles -->
+  </div><!-- End of #main-content -->
+
+  <footer class="panel-footer">
+    <div class="container">
+      <div class="row">
+        <section id="hours" class="col-sm-4">
+          <span>Hours:</span><br>
+          Sun-Thurs: 8:15am - 3:00pm<br>
+          Fri: 10:15am - 1:30pm<br>
+          Saturday Closed
+          <hr class="visible-xs">
+        </section>
+        <section id="address" class="col-sm-4">
+          <span>Address:</span><br>
+          2222 Mamora Road<br>
+          Khartoum, KH 20156
+          <p>* Delivery area all the triangle capitall 24 hours open</p>
+          <hr class="visible-xs">
+        </section>
+        <section id="testimonials" class="col-sm-4">
+          <p>"The best food you can have in a such area i highly recommed all of you to visit"</p>
+          <p>"The staff was very warm with me, also the food is delcious and the prices are amazing "</p>
+        </section>
+      </div>
+      <div class="text-center">&copy; copy rigth here 2021</div>
+    </div>
+  </footer>
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-2.1.4.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
